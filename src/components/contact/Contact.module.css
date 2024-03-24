@@ -1,0 +1,26 @@
+.container {
+  border: 1px solid #000;
+  border-radius: 4px;
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.miniContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.button {
+  width: auto;
+  height: 30px;
+}
+
+.text {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
